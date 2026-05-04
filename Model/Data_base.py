@@ -1,5 +1,7 @@
+# Importamos o conector para permitir que o Python comunique com o servidor MySQL
 import mysql.connector
 
+# Classe Data_base: Gere a ligacao e execucao de comandos no servidor de base de dados
 class Data_base:
     def __init__(self):
 # configura o acesso ao servidor MYSQL        
